@@ -1,0 +1,4 @@
+<%@ page session="false" %>
+<%-- This file should already exist within a Genesys Composer project --%>
+<%@ page import="com.wti.genesys.BackendJspf" %>
+<% BackedJspf.getResult(this, request, response); %>
